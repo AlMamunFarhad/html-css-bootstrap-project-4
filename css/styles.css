@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+
+.hero-section .hero-btn a{
+    color: #fff;
+    background-color: #f5222d;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+    padding-left: 8rem; 
+    padding-right: 8rem; 
+    font-size: 1.5rem;
+    border-radius: .375rem;
+}
+
+/* footer */
+.footer .footer-menu ul li a{
+  color: #528fc3;
+  margin: 0 1rem;
+}
+@media screen and (max-width: 768px){
+    .footer .footer-menu ul {
+        flex-direction: column;
+    }
+    .footer .footer-menu ul li a{
+       display: flex;
+       justify-content: center!important;
+       /* align-items: start; */
+    }
+}
+
+/* hero section */
+@media screen and (max-width: 768px) {
+    .hero-section .hero-content h1{
+        font-size: 2.5rem !important;
+    }
+    .hero-section .hero-content{
+        font-size: 1rem !important;
+    }
+    .hero-section .hero-btn a{
+        /* padding: 2rem 2rem !important; */
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 3;
+        font-size: 1rem !important;
+    }
+    .hero-section .hero-btn p{
+        font-size: .7rem;
+        padding-right: .5rem;
+    }
+}
+@media screen and (max-width: 520px){
+    .hero-section .hero-btn a{
+      font-size: .8rem !important;
+    }
+    .hero-section .hero-btn a svg{
+        height: 1rem;
+    }
+}
+
+/* section 3 */
+
+@media screen and (max-width: 992px){
+    .section-3 .section3-content {
+        flex-direction: column;
+    }
+    .section-3 .section3-content .section-img{
+        justify-content: center !important;
+    }
+    .section-3 .section3-content .main-content h1{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px){
+    .section-3 .main-content h1{
+        font-size: 2.5rem !important;
+        margin-top: 2rem;
+    }
+    .section-3 .main-content h5{
+       font-size: 1.5rem !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section-3 .section3-btn a{
+       padding: .5rem 2rem !important;
+       font-size: 1rem !important;
+    }
+}
+/* section-4 */
+@media screen and (max-width: 768px){
+    .section-4 .glucotrust h1{
+        font-size: 2.5rem !important;
+    }
+    .section-4 .section3-content3 {
+        flex-direction: column;
+    }
+    .section-4 .section3-content3 .section3-img3{
+      justify-content: center !important;
+    }
+    .section-4 .section3-content3 .main-content h1{
+       font-size: 2.5rem !important;
+    }
+
+    .section-4 .section3-main3 h3{
+        font-size: 1.8rem !important;
+    }
+
+    .section-4 .section3-btn a{
+        margin-top: 1.5rem;
+        padding: .5rem 2rem !important;
+        font-size: 1rem !important;
+    }
+}
+
